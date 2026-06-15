@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "NutriTrack",
-    "slug": "NutriTrack",
+    "slug": "nutritrack",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b976d5f2-1726-48a3-9e89-c2de6019390c"
+      }
+    },
+    "owner": "sumit4201k"
   }
 }
