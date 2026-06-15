@@ -1,56 +1,67 @@
-# Welcome to your Expo app 👋
+# NutriTrack 🥗
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native macro and calorie tracking app built with Expo. Track your daily nutrition goals, log meals, and monitor your macro intake — all from your mobile device.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+- Track daily calories, protein, carbs, and fats
+- Log meals with full macro breakdown
+- Visual macro progress indicators
+- Set and manage personal nutrition goals
+- Clean and minimal mobile UI
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack
 
-2. Start the app
+- **React Native** — cross-platform mobile framework
+- **Expo SDK 54** — managed workflow and tooling
+- **Expo Router** — file-based navigation
+- **NativeWind** — Tailwind CSS styling for React Native
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Node.js 18+
+- Expo Go app (SDK 54) installed on your mobile device
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/Sumit4201k/nutritrack-rn.git
+cd nutritrack-rn
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code with Expo Go on your phone.
 
-### Other setup steps
+## 📂 Project Structure
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```
+app/
+├── (tabs)/
+│   ├── index.tsx        # Home / Dashboard
+│   ├── log.tsx          # Meal logging
+│   └── profile.tsx      # User profile & goals
+components/
+├── MacroCard.tsx
+├── MealItem.tsx
+assets/
+└── images/
+```
 
-## Learn more
+## 📸 Screenshots
 
-To learn more about developing your project with Expo, look at the following resources:
+> Coming soon
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🛣 Roadmap
 
-## Join the community
+- [ ] Home dashboard with macro summary
+- [ ] Meal logging screen
+- [ ] User profile and goal setting
+- [ ] Daily streak tracker
+- [ ] Macro progress charts
 
-Join our community of developers creating universal apps.
+## 📄 License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MIT
