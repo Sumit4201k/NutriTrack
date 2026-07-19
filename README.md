@@ -13,7 +13,7 @@ A React Native macro and calorie tracking app built with Expo. Track your daily 
 ## 🛠 Tech Stack
 
 - **React Native** — cross-platform mobile framework
-- **Expo SDK 54** — managed workflow and tooling
+- **Expo SDK 55** — managed workflow and tooling
 - **Expo Router** — file-based navigation
 - **NativeWind** — Tailwind CSS styling for React Native
 
@@ -22,7 +22,7 @@ A React Native macro and calorie tracking app built with Expo. Track your daily 
 ### Prerequisites
 
 - Node.js 18+
-- Expo Go app (SDK 54) installed on your mobile device
+- Expo Go app (SDK 55) installed on your mobile device
 
 ### Installation
 
